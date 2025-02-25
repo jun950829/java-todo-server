@@ -37,7 +37,7 @@ public class TaskEntity {
 
     @CreationTimestamp
     @Column(insertable = false, updatable = false)
-    private Timestamp createAt;
+    private Timestamp createdAt;
 
     @UpdateTimestamp
     @Column(insertable = false, updatable = false)
